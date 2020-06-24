@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D039F1FF24A282FD002D0073 /* pH_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039F1FE24A282FD002D0073 /* pH_CalculatorApp.swift */; };
+		D039F20124A282FE002D0073 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039F20024A282FE002D0073 /* ContentView.swift */; };
+		D039F20324A282FE002D0073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D039F20224A282FE002D0073 /* Assets.xcassets */; };
+		D039F20624A282FE002D0073 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D039F20524A282FE002D0073 /* Preview Assets.xcassets */; };
+		D039F21124A282FE002D0073 /* pH_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039F21024A282FE002D0073 /* pH_CalculatorTests.swift */; };
+		D039F21C24A282FE002D0073 /* pH_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039F21B24A282FE002D0073 /* pH_CalculatorUITests.swift */; };
+		D039F22A24A28349002D0073 /* pHCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039F22924A28349002D0073 /* pHCal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D039F20D24A282FE002D0073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D039F1F324A282FD002D0073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D039F1FA24A282FD002D0073;
+			remoteInfo = "pH-Calculator";
+		};
+		D039F21824A282FE002D0073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D039F1F324A282FD002D0073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D039F1FA24A282FD002D0073;
+			remoteInfo = "pH-Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D039F1FB24A282FD002D0073 /* pH-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pH-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D039F1FE24A282FD002D0073 /* pH_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pH_CalculatorApp.swift; sourceTree = "<group>"; };
+		D039F20024A282FE002D0073 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D039F20224A282FE002D0073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D039F20524A282FE002D0073 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D039F20724A282FE002D0073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D039F20C24A282FE002D0073 /* pH-CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pH-CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D039F21024A282FE002D0073 /* pH_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pH_CalculatorTests.swift; sourceTree = "<group>"; };
+		D039F21224A282FE002D0073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D039F21724A282FE002D0073 /* pH-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pH-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D039F21B24A282FE002D0073 /* pH_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pH_CalculatorUITests.swift; sourceTree = "<group>"; };
+		D039F21D24A282FE002D0073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D039F22924A28349002D0073 /* pHCal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pHCal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D039F1F824A282FD002D0073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D039F20924A282FE002D0073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D039F21424A282FE002D0073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D039F1F224A282FD002D0073 = {
+			isa = PBXGroup;
+			children = (
+				D039F1FD24A282FD002D0073 /* pH-Calculator */,
+				D039F20F24A282FE002D0073 /* pH-CalculatorTests */,
+				D039F21A24A282FE002D0073 /* pH-CalculatorUITests */,
+				D039F1FC24A282FD002D0073 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D039F1FC24A282FD002D0073 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D039F1FB24A282FD002D0073 /* pH-Calculator.app */,
+				D039F20C24A282FE002D0073 /* pH-CalculatorTests.xctest */,
+				D039F21724A282FE002D0073 /* pH-CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D039F1FD24A282FD002D0073 /* pH-Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				D039F1FE24A282FD002D0073 /* pH_CalculatorApp.swift */,
+				D039F22924A28349002D0073 /* pHCal.swift */,
+				D039F20024A282FE002D0073 /* ContentView.swift */,
+				D039F20224A282FE002D0073 /* Assets.xcassets */,
+				D039F20724A282FE002D0073 /* Info.plist */,
+				D039F20424A282FE002D0073 /* Preview Content */,
+			);
+			path = "pH-Calculator";
+			sourceTree = "<group>";
+		};
+		D039F20424A282FE002D0073 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D039F20524A282FE002D0073 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D039F20F24A282FE002D0073 /* pH-CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D039F21024A282FE002D0073 /* pH_CalculatorTests.swift */,
+				D039F21224A282FE002D0073 /* Info.plist */,
+			);
+			path = "pH-CalculatorTests";
+			sourceTree = "<group>";
+		};
+		D039F21A24A282FE002D0073 /* pH-CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D039F21B24A282FE002D0073 /* pH_CalculatorUITests.swift */,
+				D039F21D24A282FE002D0073 /* Info.plist */,
+			);
+			path = "pH-CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D039F1FA24A282FD002D0073 /* pH-Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D039F22024A282FE002D0073 /* Build configuration list for PBXNativeTarget "pH-Calculator" */;
+			buildPhases = (
+				D039F1F724A282FD002D0073 /* Sources */,
+				D039F1F824A282FD002D0073 /* Frameworks */,
+				D039F1F924A282FD002D0073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pH-Calculator";
+			productName = "pH-Calculator";
+			productReference = D039F1FB24A282FD002D0073 /* pH-Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D039F20B24A282FE002D0073 /* pH-CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D039F22324A282FE002D0073 /* Build configuration list for PBXNativeTarget "pH-CalculatorTests" */;
+			buildPhases = (
+				D039F20824A282FE002D0073 /* Sources */,
+				D039F20924A282FE002D0073 /* Frameworks */,
+				D039F20A24A282FE002D0073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D039F20E24A282FE002D0073 /* PBXTargetDependency */,
+			);
+			name = "pH-CalculatorTests";
+			productName = "pH-CalculatorTests";
+			productReference = D039F20C24A282FE002D0073 /* pH-CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D039F21624A282FE002D0073 /* pH-CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D039F22624A282FE002D0073 /* Build configuration list for PBXNativeTarget "pH-CalculatorUITests" */;
+			buildPhases = (
+				D039F21324A282FE002D0073 /* Sources */,
+				D039F21424A282FE002D0073 /* Frameworks */,
+				D039F21524A282FE002D0073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D039F21924A282FE002D0073 /* PBXTargetDependency */,
+			);
+			name = "pH-CalculatorUITests";
+			productName = "pH-CalculatorUITests";
+			productReference = D039F21724A282FE002D0073 /* pH-CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D039F1F324A282FD002D0073 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D039F1FA24A282FD002D0073 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D039F20B24A282FE002D0073 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D039F1FA24A282FD002D0073;
+					};
+					D039F21624A282FE002D0073 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D039F1FA24A282FD002D0073;
+					};
+				};
+			};
+			buildConfigurationList = D039F1F624A282FD002D0073 /* Build configuration list for PBXProject "pH-Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D039F1F224A282FD002D0073;
+			productRefGroup = D039F1FC24A282FD002D0073 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D039F1FA24A282FD002D0073 /* pH-Calculator */,
+				D039F20B24A282FE002D0073 /* pH-CalculatorTests */,
+				D039F21624A282FE002D0073 /* pH-CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D039F1F924A282FD002D0073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D039F20624A282FE002D0073 /* Preview Assets.xcassets in Resources */,
+				D039F20324A282FE002D0073 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D039F20A24A282FE002D0073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D039F21524A282FE002D0073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D039F1F724A282FD002D0073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D039F20124A282FE002D0073 /* ContentView.swift in Sources */,
+				D039F22A24A28349002D0073 /* pHCal.swift in Sources */,
+				D039F1FF24A282FD002D0073 /* pH_CalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D039F20824A282FE002D0073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D039F21124A282FE002D0073 /* pH_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D039F21324A282FE002D0073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D039F21C24A282FE002D0073 /* pH_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D039F20E24A282FE002D0073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D039F1FA24A282FD002D0073 /* pH-Calculator */;
+			targetProxy = D039F20D24A282FE002D0073 /* PBXContainerItemProxy */;
+		};
+		D039F21924A282FE002D0073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D039F1FA24A282FD002D0073 /* pH-Calculator */;
+			targetProxy = D039F21824A282FE002D0073 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D039F21E24A282FE002D0073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D039F21F24A282FE002D0073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D039F22124A282FE002D0073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"pH-Calculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "pH-Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mizu-bai.pH-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D039F22224A282FE002D0073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"pH-Calculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "pH-Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mizu-bai.pH-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D039F22424A282FE002D0073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "pH-CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mizu-bai.pH-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pH-Calculator.app/pH-Calculator";
+			};
+			name = Debug;
+		};
+		D039F22524A282FE002D0073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "pH-CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mizu-bai.pH-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pH-Calculator.app/pH-Calculator";
+			};
+			name = Release;
+		};
+		D039F22724A282FE002D0073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "pH-CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mizu-bai.pH-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pH-Calculator";
+			};
+			name = Debug;
+		};
+		D039F22824A282FE002D0073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "pH-CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mizu-bai.pH-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pH-Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D039F1F624A282FD002D0073 /* Build configuration list for PBXProject "pH-Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D039F21E24A282FE002D0073 /* Debug */,
+				D039F21F24A282FE002D0073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D039F22024A282FE002D0073 /* Build configuration list for PBXNativeTarget "pH-Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D039F22124A282FE002D0073 /* Debug */,
+				D039F22224A282FE002D0073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D039F22324A282FE002D0073 /* Build configuration list for PBXNativeTarget "pH-CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D039F22424A282FE002D0073 /* Debug */,
+				D039F22524A282FE002D0073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D039F22624A282FE002D0073 /* Build configuration list for PBXNativeTarget "pH-CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D039F22724A282FE002D0073 /* Debug */,
+				D039F22824A282FE002D0073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D039F1F324A282FD002D0073 /* Project object */;
+}

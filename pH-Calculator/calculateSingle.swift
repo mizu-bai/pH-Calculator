@@ -33,7 +33,7 @@ func calculateSingle(acidBase: Int, polyprotic: Int, KValue: [Double], cValue: D
         
         cxValue = solveEquation(maxIndex: 4, coefficient: [1, KValue[0], (KValue[0] * KValue[1] - KValue[0] * cValue - KwValue), -(KValue[0] * KwValue + 2 * KValue[0] * KValue[1] * cValue), -(KValue[0] * KValue[1] * KwValue)], initialValue: cValue)
         
-    } else if(polyprotic == 3 || polyprotic == 4) {
+    } else if(polyprotic >= 3) {
         
         // Triprotic or tetraprotic acid or base.
         // NOTE: Tetraprotic acid or base will be regarded as triprotic acid or base.

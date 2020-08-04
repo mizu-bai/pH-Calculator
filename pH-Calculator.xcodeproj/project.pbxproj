@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17AD449B24D68B8400431DEE /* calculateBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD449324D68B8400431DEE /* calculateBuffer.swift */; };
+		17AD449C24D68B8400431DEE /* calculateAmphiprotic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD449424D68B8400431DEE /* calculateAmphiprotic.swift */; };
+		17AD449D24D68B8400431DEE /* calculateMixed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD449524D68B8400431DEE /* calculateMixed.swift */; };
+		17AD44A124D68B8400431DEE /* calculateSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD449924D68B8400431DEE /* calculateSingle.swift */; };
+		17AD44A224D68B8400431DEE /* manageInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD449A24D68B8400431DEE /* manageInput.swift */; };
+		17AD44A524D68D4200431DEE /* EquationParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AD44A424D68D4200431DEE /* EquationParameter.m */; };
+		17AD44A924D68DC400431DEE /* solveCore.c in Sources */ = {isa = PBXBuildFile; fileRef = 17AD44A824D68DC400431DEE /* solveCore.c */; };
+		17AD44AB24D68E6600431DEE /* string2array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD44AA24D68E6600431DEE /* string2array.swift */; };
+		17AD44AD24D68EA400431DEE /* InputParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD44AC24D68EA400431DEE /* InputParameter.swift */; };
+		17AD44AF24D68EF700431DEE /* SolutionParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD44AE24D68EF700431DEE /* SolutionParameter.swift */; };
+		17AD44B124D6904100431DEE /* searchDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD44B024D6904100431DEE /* searchDB.swift */; };
+		17AD44BA24D6918C00431DEE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AD44B924D6918C00431DEE /* libsqlite3.tbd */; };
+		17B2086A24D8A65C00431DEE /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B2086924D8A65C00431DEE /* DBManager.m */; };
+		17B2086F24D8A85500431DEE /* SearchParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B2086E24D8A85500431DEE /* SearchParameter.m */; };
+		17B2088E24D92DAE00431DEE /* Constant in Resources */ = {isa = PBXBuildFile; fileRef = 17B2088D24D92DAD00431DEE /* Constant */; };
 		D039F1FF24A282FD002D0073 /* pH_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039F1FE24A282FD002D0073 /* pH_CalculatorApp.swift */; };
 		D039F20124A282FE002D0073 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039F20024A282FE002D0073 /* ContentView.swift */; };
 		D039F20324A282FE002D0073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D039F20224A282FE002D0073 /* Assets.xcassets */; };
 		D039F20624A282FE002D0073 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D039F20524A282FE002D0073 /* Preview Assets.xcassets */; };
 		D039F21124A282FE002D0073 /* pH_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039F21024A282FE002D0073 /* pH_CalculatorTests.swift */; };
 		D039F21C24A282FE002D0073 /* pH_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039F21B24A282FE002D0073 /* pH_CalculatorUITests.swift */; };
-		D039F22A24A28349002D0073 /* pHCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039F22924A28349002D0073 /* pHCal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17AD449324D68B8400431DEE /* calculateBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculateBuffer.swift; sourceTree = "<group>"; };
+		17AD449424D68B8400431DEE /* calculateAmphiprotic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculateAmphiprotic.swift; sourceTree = "<group>"; };
+		17AD449524D68B8400431DEE /* calculateMixed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculateMixed.swift; sourceTree = "<group>"; };
+		17AD449924D68B8400431DEE /* calculateSingle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculateSingle.swift; sourceTree = "<group>"; };
+		17AD449A24D68B8400431DEE /* manageInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = manageInput.swift; sourceTree = "<group>"; };
+		17AD44A324D68D4100431DEE /* pH-Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pH-Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		17AD44A424D68D4200431DEE /* EquationParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EquationParameter.m; sourceTree = "<group>"; };
+		17AD44A624D68D5A00431DEE /* EquationParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EquationParameter.h; sourceTree = "<group>"; };
+		17AD44A724D68DC400431DEE /* solveCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = solveCore.h; sourceTree = "<group>"; };
+		17AD44A824D68DC400431DEE /* solveCore.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = solveCore.c; sourceTree = "<group>"; };
+		17AD44AA24D68E6600431DEE /* string2array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = string2array.swift; sourceTree = "<group>"; };
+		17AD44AC24D68EA400431DEE /* InputParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputParameter.swift; sourceTree = "<group>"; };
+		17AD44AE24D68EF700431DEE /* SolutionParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionParameter.swift; sourceTree = "<group>"; };
+		17AD44B024D6904100431DEE /* searchDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchDB.swift; sourceTree = "<group>"; };
+		17AD44B924D6918C00431DEE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		17B2086924D8A65C00431DEE /* DBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		17B2086B24D8A67600431DEE /* DBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		17B2086E24D8A85500431DEE /* SearchParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchParameter.m; sourceTree = "<group>"; };
+		17B2087024D8A86C00431DEE /* SearchParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchParameter.h; sourceTree = "<group>"; };
+		17B2088D24D92DAD00431DEE /* Constant */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Constant; sourceTree = "<group>"; };
 		D039F1FB24A282FD002D0073 /* pH-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pH-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D039F1FE24A282FD002D0073 /* pH_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pH_CalculatorApp.swift; sourceTree = "<group>"; };
 		D039F20024A282FE002D0073 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,7 +80,6 @@
 		D039F21724A282FE002D0073 /* pH-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pH-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D039F21B24A282FE002D0073 /* pH_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pH_CalculatorUITests.swift; sourceTree = "<group>"; };
 		D039F21D24A282FE002D0073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D039F22924A28349002D0073 /* pHCal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pHCal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AD44BA24D6918C00431DEE /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +108,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17AD44B824D6918C00431DEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17AD44B924D6918C00431DEE /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17FD902324D85F5B00431DEE /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				17AD449A24D68B8400431DEE /* manageInput.swift */,
+				17AD44AC24D68EA400431DEE /* InputParameter.swift */,
+				17AD44AA24D68E6600431DEE /* string2array.swift */,
+			);
+			name = Input;
+			sourceTree = "<group>";
+		};
+		17FD902424D85F8300431DEE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				17AD44B024D6904100431DEE /* searchDB.swift */,
+				17B2087024D8A86C00431DEE /* SearchParameter.h */,
+				17B2086E24D8A85500431DEE /* SearchParameter.m */,
+				17B2086B24D8A67600431DEE /* DBManager.h */,
+				17B2086924D8A65C00431DEE /* DBManager.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		17FD902524D85FAF00431DEE /* Solution */ = {
+			isa = PBXGroup;
+			children = (
+				17AD44AE24D68EF700431DEE /* SolutionParameter.swift */,
+			);
+			name = Solution;
+			sourceTree = "<group>";
+		};
+		17FD902724D8669A00431DEE /* Calculate */ = {
+			isa = PBXGroup;
+			children = (
+				17AD449924D68B8400431DEE /* calculateSingle.swift */,
+				17AD449524D68B8400431DEE /* calculateMixed.swift */,
+				17AD449324D68B8400431DEE /* calculateBuffer.swift */,
+				17AD449424D68B8400431DEE /* calculateAmphiprotic.swift */,
+				17AD44A624D68D5A00431DEE /* EquationParameter.h */,
+				17AD44A424D68D4200431DEE /* EquationParameter.m */,
+				17AD44A724D68DC400431DEE /* solveCore.h */,
+				17AD44A824D68DC400431DEE /* solveCore.c */,
+			);
+			name = Calculate;
+			sourceTree = "<group>";
+		};
+		17FD902824D866E600431DEE /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				17AD44A324D68D4100431DEE /* pH-Calculator-Bridging-Header.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
 		D039F1F224A282FD002D0073 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +176,7 @@
 				D039F20F24A282FE002D0073 /* pH-CalculatorTests */,
 				D039F21A24A282FE002D0073 /* pH-CalculatorUITests */,
 				D039F1FC24A282FD002D0073 /* Products */,
+				17AD44B824D6918C00431DEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +193,17 @@
 		D039F1FD24A282FD002D0073 /* pH-Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				17FD902324D85F5B00431DEE /* Input */,
+				17FD902424D85F8300431DEE /* Search */,
+				17FD902524D85FAF00431DEE /* Solution */,
+				17FD902724D8669A00431DEE /* Calculate */,
+				17FD902824D866E600431DEE /* Header */,
 				D039F1FE24A282FD002D0073 /* pH_CalculatorApp.swift */,
-				D039F22924A28349002D0073 /* pHCal.swift */,
 				D039F20024A282FE002D0073 /* ContentView.swift */,
 				D039F20224A282FE002D0073 /* Assets.xcassets */,
 				D039F20724A282FE002D0073 /* Info.plist */,
 				D039F20424A282FE002D0073 /* Preview Content */,
+				17B2088D24D92DAD00431DEE /* Constant */,
 			);
 			path = "pH-Calculator";
 			sourceTree = "<group>";
@@ -200,6 +301,7 @@
 				TargetAttributes = {
 					D039F1FA24A282FD002D0073 = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1130;
 					};
 					D039F20B24A282FE002D0073 = {
 						CreatedOnToolsVersion = 12.0;
@@ -236,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B2088E24D92DAE00431DEE /* Constant in Resources */,
 				D039F20624A282FE002D0073 /* Preview Assets.xcassets in Resources */,
 				D039F20324A282FE002D0073 /* Assets.xcassets in Resources */,
 			);
@@ -262,8 +365,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AD44A224D68B8400431DEE /* manageInput.swift in Sources */,
+				17AD44AD24D68EA400431DEE /* InputParameter.swift in Sources */,
+				17B2086F24D8A85500431DEE /* SearchParameter.m in Sources */,
+				17AD449B24D68B8400431DEE /* calculateBuffer.swift in Sources */,
 				D039F20124A282FE002D0073 /* ContentView.swift in Sources */,
-				D039F22A24A28349002D0073 /* pHCal.swift in Sources */,
+				17AD44B124D6904100431DEE /* searchDB.swift in Sources */,
+				17AD449D24D68B8400431DEE /* calculateMixed.swift in Sources */,
+				17AD449C24D68B8400431DEE /* calculateAmphiprotic.swift in Sources */,
+				17AD44AB24D68E6600431DEE /* string2array.swift in Sources */,
+				17B2086A24D8A65C00431DEE /* DBManager.m in Sources */,
+				17AD44A124D68B8400431DEE /* calculateSingle.swift in Sources */,
+				17AD44AF24D68EF700431DEE /* SolutionParameter.swift in Sources */,
+				17AD44A924D68DC400431DEE /* solveCore.c in Sources */,
+				17AD44A524D68D4200431DEE /* EquationParameter.m in Sources */,
 				D039F1FF24A282FD002D0073 /* pH_CalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"pH-Calculator/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -432,6 +548,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "mizu-bai.pH-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "pH-Calculator/pH-Calculator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,6 +561,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"pH-Calculator/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -453,6 +573,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "mizu-bai.pH-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "pH-Calculator/pH-Calculator-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

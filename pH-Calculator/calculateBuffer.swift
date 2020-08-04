@@ -17,13 +17,13 @@ func calculateBuffer(acidBase: [Int], polyprotic: Int, KValue: Double, cValue: [
     
     if(polyprotic != 1) {
         
-        print("UNSUPPORT SOLUTION TYPE!")
+//        print("UNSUPPORT SOLUTION TYPE!")
         
     }
     
     if(acidBase[0] + acidBase[1] > 1 ) {
 
-        print("UNSUPPORT SOLUTION TYPE!")
+//        print("UNSUPPORT SOLUTION TYPE!")
         
     }
     

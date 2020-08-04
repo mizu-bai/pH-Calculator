@@ -15,19 +15,31 @@ func calculateAmphiprotic(acidBase: Int, polyprotic: Int, KValue: [Double], cVal
     var pHValue: Double = 0.0 // The value of pH calcuted by cxValue and the type of the solution.
     let KwValue: Double = 1e-14 // The ionization constant of water.
     
+    // Prepare the inputs for Struct CalculateTemp.
+    
+    var inputDegree: Int = 0
+    var inputCoefficient: [Double] = [Double]()
+    var inputInitialValue: Double = 0.0
+    
     if(polyprotic != 1) {
         
-        print("UNSUPPORT SOLUTION TYPE!")
+//        print("UNSUPPORT SOLUTION TYPE!")
         
     }
     
     if(acidBase != 3) {
 
-        print("UNSUPPORT SOLUTION TYPE!")
+//        print("UNSUPPORT SOLUTION TYPE!")
         
     }
     
-    cxValue = solveEquation(maxIndex: 4, coefficient: [1, 1 + KValue[0], KValue[0] * KValue[1] - KwValue, -(KValue[0] * KValue[1] + KValue[0] * KwValue), -KValue[0] * KValue[1] * KwValue], initialValue: cValue)
+    inputDegree = 4
+    inputCoefficient = [1, 1 + KValue[0], KValue[0] * KValue[1] - KwValue, -(KValue[0] * KValue[1] + KValue[0] * KwValue), -KValue[0] * KValue[1] * KwValue]
+    inputInitialValue = cValue
+    
+    let ExactEquation = EquationParameter()
+    ExactEquation!.initParameter(withDegree: Int32(inputDegree), coefficient: &inputCoefficient, initialValue: inputInitialValue)
+    cxValue = ExactEquation!.calculateAndReturnAns()
     
     pHValue = -log10(cxValue)
     

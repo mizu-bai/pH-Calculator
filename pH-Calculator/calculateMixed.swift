@@ -15,15 +15,21 @@ func calculateMixed(acidBase: [Int], polyprotic: [Int], KValue: [Double], cValue
     var pHValue: Double = 0.0 // The value of pH calcuted by cxValue and the type of the solution.
     let KwValue: Double = 1e-14 // The ionization constant of water.
     
+    // Prepare the inputs for Struct CalculateTemp.
+    
+    var inputDegree: Int = 0
+    var inputCoefficient: [Double] = [Double]()
+    var inputInitialValue: Double = 0.0
+    
     if(polyprotic != [1, 1]) {
         
-        print("UNSUPPORT SOLUTION TYPE!")
+//        print("UNSUPPORT SOLUTION TYPE!")
         
     }
     
     if(acidBase[0] + acidBase[1] > 2 ) {
 
-        print("UNSUPPORT SOLUTION TYPE!")
+//        print("UNSUPPORT SOLUTION TYPE!")
         
     }
     
@@ -32,7 +38,11 @@ func calculateMixed(acidBase: [Int], polyprotic: [Int], KValue: [Double], cValue
         // Acid & acid or base & base.
         // cx ^ 4 + (KA + KB) * cx ^ 3 + (KA * KB - KA * cA - KB * cB - Kw) * cx ^ 2 - (KA * KB * (cA + cB) + Kw * (KA + KB)) * cx - KA * KB * Kw = 0
         
-        cxValue = solveEquation(maxIndex: 4, coefficient: [1, KValue[0] + KValue[1], KValue[0] * KValue[1] - KValue[0] * cValue[0] - KValue[1] * cValue[1] - KwValue, -(KValue[0] * KValue[1] * (cValue[0] + cValue[1]) + KwValue * (KValue[0] + KValue[1])), -KValue[0] * KValue[1] * KwValue], initialValue: (cValue[0] + cValue[1]) / 2)
+//        cxValue = solveEquation(maxIndex: 4, coefficient: [1, KValue[0] + KValue[1], KValue[0] * KValue[1] - KValue[0] * cValue[0] - KValue[1] * cValue[1] - KwValue, -(KValue[0] * KValue[1] * (cValue[0] + cValue[1]) + KwValue * (KValue[0] + KValue[1])), -KValue[0] * KValue[1] * KwValue], initialValue: (cValue[0] + cValue[1]) / 2)
+        
+        inputDegree = 4
+        inputCoefficient = [1, KValue[0] + KValue[1], KValue[0] * KValue[1] - KValue[0] * cValue[0] - KValue[1] * cValue[1] - KwValue, -(KValue[0] * KValue[1] * (cValue[0] + cValue[1]) + KwValue * (KValue[0] + KValue[1])), -KValue[0] * KValue[1] * KwValue]
+        inputInitialValue = (cValue[0] + cValue[1]) / 2
         
     } else if(acidBase[0] + acidBase[1] == 1) {
         
@@ -60,13 +70,19 @@ func calculateMixed(acidBase: [Int], polyprotic: [Int], KValue: [Double], cValue
             
         // Kb * cx ^ 4 + (Ka * Kb + Kw + Kb * cb) * cx ^ 3 + ((Ka - Kb) * Kw + Ka * Kb * (cb - ca)) * cx ^ 2 - (Ka * Kb * Kw + Kw * Ka * ca + Kw ^ 2) * cx - Kw ^ 2 * Ka = 0
         
-        cxValue = solveEquation(maxIndex: 4, coefficient: [KbValue, KaValue * KbValue + KwValue + KbValue * cbValue, (KaValue - KbValue) * KwValue + KaValue * KbValue * (cbValue - caValue), -(KaValue * KbValue * KwValue + KwValue * KaValue * caValue + pow(KwValue, 2)), -(pow(KwValue, 2) * KaValue)], initialValue: (caValue + cbValue) / 2)
-        
+        inputDegree = 4
+        inputCoefficient = [KbValue, KaValue * KbValue + KwValue + KbValue * cbValue, (KaValue - KbValue) * KwValue + KaValue * KbValue * (cbValue - caValue), -(KaValue * KbValue * KwValue + KwValue * KaValue * caValue + pow(KwValue, 2)), -(pow(KwValue, 2) * KaValue)]
+        inputInitialValue = (cValue[0] + cValue[1]) / 2
+                
     } else {
         
-        print("ERROR IN SOLVING THE EXACT EQUATION!")
+//        print("ERROR IN SOLVING THE EXACT EQUATION!")
         
     }
+    
+    let ExactEquation = EquationParameter()
+    ExactEquation!.initParameter(withDegree: Int32(inputDegree), coefficient: &inputCoefficient, initialValue: inputInitialValue)
+    cxValue = ExactEquation!.calculateAndReturnAns()
     
     if((acidBase == [0, 0]) || (acidBase[0] + acidBase[1] == 1)) {
         
@@ -78,7 +94,7 @@ func calculateMixed(acidBase: [Int], polyprotic: [Int], KValue: [Double], cValue
                 
     } else {
         
-        print("ERROR IN CONVERTING CXVALUE TO PHVALUE!")
+//        print("ERROR IN CONVERTING CXVALUE TO PHVALUE!")
         
     }
     

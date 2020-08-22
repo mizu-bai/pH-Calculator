@@ -108,45 +108,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17AD44B824D6918C00431DEE /* Frameworks */ = {
+		177782CE24E16BE700431DEE /* Header */ = {
 			isa = PBXGroup;
 			children = (
-				17AD44B924D6918C00431DEE /* libsqlite3.tbd */,
+				17AD44A324D68D4100431DEE /* pH-Calculator-Bridging-Header.h */,
 			);
-			name = Frameworks;
+			path = Header;
 			sourceTree = "<group>";
 		};
-		17FD902324D85F5B00431DEE /* Input */ = {
-			isa = PBXGroup;
-			children = (
-				17AD449A24D68B8400431DEE /* manageInput.swift */,
-				17AD44AC24D68EA400431DEE /* InputParameter.swift */,
-				17AD44AA24D68E6600431DEE /* string2array.swift */,
-			);
-			name = Input;
-			sourceTree = "<group>";
-		};
-		17FD902424D85F8300431DEE /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				17AD44B024D6904100431DEE /* searchDB.swift */,
-				17B2087024D8A86C00431DEE /* SearchParameter.h */,
-				17B2086E24D8A85500431DEE /* SearchParameter.m */,
-				17B2086B24D8A67600431DEE /* DBManager.h */,
-				17B2086924D8A65C00431DEE /* DBManager.m */,
-			);
-			name = Search;
-			sourceTree = "<group>";
-		};
-		17FD902524D85FAF00431DEE /* Solution */ = {
-			isa = PBXGroup;
-			children = (
-				17AD44AE24D68EF700431DEE /* SolutionParameter.swift */,
-			);
-			name = Solution;
-			sourceTree = "<group>";
-		};
-		17FD902724D8669A00431DEE /* Calculate */ = {
+		177782D024E16C2500431DEE /* Calculate */ = {
 			isa = PBXGroup;
 			children = (
 				17AD449924D68B8400431DEE /* calculateSingle.swift */,
@@ -158,15 +128,45 @@
 				17AD44A724D68DC400431DEE /* solveCore.h */,
 				17AD44A824D68DC400431DEE /* solveCore.c */,
 			);
-			name = Calculate;
+			path = Calculate;
 			sourceTree = "<group>";
 		};
-		17FD902824D866E600431DEE /* Header */ = {
+		177782D124E16C4D00431DEE /* Solution */ = {
 			isa = PBXGroup;
 			children = (
-				17AD44A324D68D4100431DEE /* pH-Calculator-Bridging-Header.h */,
+				17AD44AE24D68EF700431DEE /* SolutionParameter.swift */,
 			);
-			name = Header;
+			path = Solution;
+			sourceTree = "<group>";
+		};
+		177782D224E16C9700431DEE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				17AD44B024D6904100431DEE /* searchDB.swift */,
+				17B2087024D8A86C00431DEE /* SearchParameter.h */,
+				17B2086E24D8A85500431DEE /* SearchParameter.m */,
+				17B2086B24D8A67600431DEE /* DBManager.h */,
+				17B2086924D8A65C00431DEE /* DBManager.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		177782D324E16CCB00431DEE /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				17AD449A24D68B8400431DEE /* manageInput.swift */,
+				17AD44AC24D68EA400431DEE /* InputParameter.swift */,
+				17AD44AA24D68E6600431DEE /* string2array.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		17AD44B824D6918C00431DEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17AD44B924D6918C00431DEE /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D039F1F224A282FD002D0073 = {
@@ -193,13 +193,12 @@
 		D039F1FD24A282FD002D0073 /* pH-Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				17FD902324D85F5B00431DEE /* Input */,
-				17FD902424D85F8300431DEE /* Search */,
-				17FD902524D85FAF00431DEE /* Solution */,
-				17FD902724D8669A00431DEE /* Calculate */,
-				17FD902824D866E600431DEE /* Header */,
-				D039F1FE24A282FD002D0073 /* pH_CalculatorApp.swift */,
-				D039F20024A282FE002D0073 /* ContentView.swift */,
+				177782D324E16CCB00431DEE /* Input */,
+				177782D224E16C9700431DEE /* Search */,
+				177782D124E16C4D00431DEE /* Solution */,
+				177782D024E16C2500431DEE /* Calculate */,
+				177782CE24E16BE700431DEE /* Header */,
+				D07BEF2624DEC94D006DDFB6 /* UI */,
 				D039F20224A282FE002D0073 /* Assets.xcassets */,
 				D039F20724A282FE002D0073 /* Info.plist */,
 				D039F20424A282FE002D0073 /* Preview Content */,
@@ -232,6 +231,15 @@
 				D039F21D24A282FE002D0073 /* Info.plist */,
 			);
 			path = "pH-CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		D07BEF2624DEC94D006DDFB6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D039F20024A282FE002D0073 /* ContentView.swift */,
+				D039F1FE24A282FD002D0073 /* pH_CalculatorApp.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -548,7 +556,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "mizu-bai.pH-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OBJC_BRIDGING_HEADER = "pH-Calculator/pH-Calculator-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -573,7 +581,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "mizu-bai.pH-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OBJC_BRIDGING_HEADER = "pH-Calculator/pH-Calculator-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

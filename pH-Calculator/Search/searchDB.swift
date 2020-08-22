@@ -10,8 +10,10 @@ import Foundation
 func searchDB(_ searchParameter: SearchParameter, _ cValue: Double) -> SolutionParameter {
     
     let sql = searchParameter.sql;
-    let KValue = 
-        
+    let KValue: [Double] = [Double]()
+    
+    let solutionParameter = SolutionParameter(WithAcidBase: Int(searchParameter.acidBase), Polyprotic: Int(searchParameter.polyprotic), KValue: KValue, CValue: cValue)
+   
     return solutionParameter
 
 }

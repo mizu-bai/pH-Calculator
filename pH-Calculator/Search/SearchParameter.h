@@ -28,5 +28,4 @@
 
 @end
 
-
 #endif /* SearchParameter_h */

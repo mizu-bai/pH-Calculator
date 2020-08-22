@@ -27,7 +27,7 @@ func calculateAmphiprotic(acidBase: Int, polyprotic: Int, KValue: [Double], cVal
         
     }
     
-    if(acidBase != 3) {
+    if(acidBase != 2) {
 
 //        print("UNSUPPORT SOLUTION TYPE!")
         

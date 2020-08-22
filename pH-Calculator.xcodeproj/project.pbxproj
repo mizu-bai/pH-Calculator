@@ -28,6 +28,7 @@
 		D039F20624A282FE002D0073 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D039F20524A282FE002D0073 /* Preview Assets.xcassets */; };
 		D039F21124A282FE002D0073 /* pH_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039F21024A282FE002D0073 /* pH_CalculatorTests.swift */; };
 		D039F21C24A282FE002D0073 /* pH_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039F21B24A282FE002D0073 /* pH_CalculatorUITests.swift */; };
+		D052466224F0FFFE00A49E05 /* NekoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052466124F0FFFE00A49E05 /* NekoImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		D039F21724A282FE002D0073 /* pH-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pH-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D039F21B24A282FE002D0073 /* pH_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pH_CalculatorUITests.swift; sourceTree = "<group>"; };
 		D039F21D24A282FE002D0073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D052466124F0FFFE00A49E05 /* NekoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				D039F20024A282FE002D0073 /* ContentView.swift */,
+				D052466124F0FFFE00A49E05 /* NekoImage.swift */,
 				D039F1FE24A282FD002D0073 /* pH_CalculatorApp.swift */,
 			);
 			path = UI;
@@ -383,6 +386,7 @@
 				17AD449C24D68B8400431DEE /* calculateAmphiprotic.swift in Sources */,
 				17AD44AB24D68E6600431DEE /* string2array.swift in Sources */,
 				17B2086A24D8A65C00431DEE /* DBManager.m in Sources */,
+				D052466224F0FFFE00A49E05 /* NekoImage.swift in Sources */,
 				17AD44A124D68B8400431DEE /* calculateSingle.swift in Sources */,
 				17AD44AF24D68EF700431DEE /* SolutionParameter.swift in Sources */,
 				17AD44A924D68DC400431DEE /* solveCore.c in Sources */,
@@ -557,7 +561,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "mizu-bai.pH-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_OBJC_BRIDGING_HEADER = "pH-Calculator/pH-Calculator-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "pH-Calculator/Header/pH-Calculator-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -582,7 +586,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "mizu-bai.pH-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_OBJC_BRIDGING_HEADER = "pH-Calculator/pH-Calculator-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "pH-Calculator/Header/pH-Calculator-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

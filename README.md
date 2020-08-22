@@ -4,7 +4,9 @@ This application is designed to calculate the pH value of a solution. It is aime
 
 ## Progress
 
-This App is nearly done except UI, however, no one knows when the left  work will pe proceeded.  
+This App is nearly done except UI, however, no one knows when the left work will pe proceeded.
+
+![Demo Image](https://raw.githubusercontent.com/mizu-bai/pH-Calculator/master/demo.png)
 
 ## Which Solution Types are Supported 
 

@@ -14,7 +14,7 @@
     if(self = [super init]) {
         
         NSString *documentPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex: 0];
-        _DatabasePath = [documentPath stringByAppendingPathComponent: databaseName];
+        _DatabasePath          = [documentPath stringByAppendingPathComponent: databaseName];
         
     }
     
@@ -25,7 +25,7 @@
     
     rc = sqlite3_open((const char *)[_DatabasePath UTF8String], &db);
     
-    if (rc != SQLITE_OK) {
+    if(rc != SQLITE_OK) {
         
 //        NSLog(@"Can't Open Database.");
         
@@ -34,7 +34,7 @@
     return rc;
 }
 
-- (BOOL)selectDataWith:(NSString *)zSQL {
+- (BOOL)selectDataWith: (NSString *)zSQL {
     
     char *pzErrmsg;
     char **pazResult;

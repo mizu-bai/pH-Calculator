@@ -15,7 +15,11 @@ func searchDB(_ searchParameter: SearchParameter, _ cValue: Double) -> SolutionP
     selectData?.selectData(with: searchParameter.sql as String?)
     var KValue: [Double] = [Double]()
     
+    // Convert KValue from Objective-C NSArray containing NSString to Swift Double Array.
+    
     for element in selectData?.sqlResult as! [NSString] {
+        
+        // The prototype of element.doubleValue is [NSString doubleValue].
         
         KValue.append(element.doubleValue)
         

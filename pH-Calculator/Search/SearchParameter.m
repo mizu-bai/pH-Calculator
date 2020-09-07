@@ -23,7 +23,7 @@
     
 }
 
-- (void)initWithSpecies:(NSString *)inputSpecies ID:(int)inputID {
+- (void)initWithSpecies: (NSString *)inputSpecies ID:(int)inputID {
     
     _species = inputSpecies;
     _ID = inputID;
@@ -82,10 +82,10 @@
 
 - (void)formSqlCommand {
         
-    NSMutableArray *KValueList = [NSMutableArray arrayWithCapacity: _polyprotic];
+    NSMutableArray *KValueList     = [NSMutableArray arrayWithCapacity: _polyprotic];
     NSMutableString *KValueElement = [[NSMutableString alloc] init];
-    NSString *pre = @"K";
-    NSString *suf = @"VALUE";
+    NSString *pre                  = @"K";
+    NSString *suf                  = @"VALUE";
     NSMutableString *acidBaseLabel = [[NSMutableString alloc] init];
     
     if(_acidBase == 0) {

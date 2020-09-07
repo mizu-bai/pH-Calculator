@@ -18,17 +18,17 @@ func calculateSingle(acidBase: Int, polyprotic: Int, KValue: [Double], cValue: D
     
     // Prepare the inputs for Struct CalculateTemp.
     
-    var inputDegree: Int = 0
+    var inputDegree: Int           = 0
     var inputCoefficient: [Double] = [Double]()
-    var inputInitialValue: Double = 0.0
+    var inputInitialValue: Double  = 0.0
 
     if(polyprotic == 1) {
         
         // Monoprotic acid or base.
         // cx ^ 3 + K * cx ^ 2 - (K * c + Kw) * cx - K * Kw = 0
         
-        inputDegree = polyprotic + 2
-        inputCoefficient = [1, KValue[0], (-KValue[0] * cValue + KwValue), -(KValue[0] * KwValue)]
+        inputDegree       = polyprotic + 2
+        inputCoefficient  = [1, KValue[0], (-KValue[0] * cValue + KwValue), -(KValue[0] * KwValue)]
         inputInitialValue = cValue
         
     } else if(polyprotic == 2) {
@@ -36,8 +36,8 @@ func calculateSingle(acidBase: Int, polyprotic: Int, KValue: [Double], cValue: D
         // Diprotic acid or base.
         // cx ^ 4 + K1 * cx ^ 3 + (K1 * K2 - K1 * c - Kw) * cx ^ 2 - (K1 * Kw + 2 * K1 * K2 * c) * cx - K1 * K2 * Kw = 0
         
-        inputDegree = polyprotic + 2
-        inputCoefficient = [1, KValue[0], (KValue[0] * KValue[1] - KValue[0] * cValue - KwValue), -(KValue[0] * KwValue + 2 * KValue[0] * KValue[1] * cValue), -(KValue[0] * KValue[1] * KwValue)]
+        inputDegree       = polyprotic + 2
+        inputCoefficient  = [1, KValue[0], (KValue[0] * KValue[1] - KValue[0] * cValue - KwValue), -(KValue[0] * KwValue + 2 * KValue[0] * KValue[1] * cValue), -(KValue[0] * KValue[1] * KwValue)]
         inputInitialValue = cValue
         
     } else if(polyprotic >= 3) {
@@ -46,8 +46,8 @@ func calculateSingle(acidBase: Int, polyprotic: Int, KValue: [Double], cValue: D
         // NOTE: Tetraprotic acid or base will be regarded as triprotic acid or base.
         // cx ^ 5 + K1 * cx ^ 4 + (K1 * K2 - K1 * c - Kw) * cx ^ 3 + (K1 * K2 * K3 - 2 * K1 * K2 - K1 * Kw) * cx ^ 2 - (3 * K1 * K2 * K3 + K1 * K2 * Kw) * cx - K1 * K2 * K3 * Kw = 0
         
-        inputDegree = polyprotic + 2
-        inputCoefficient = [1, KValue[0], (KValue[0] * KValue[1] - KValue[0] - KValue[0] * KValue[1] * KValue[2] - 2 * KValue[0] * KValue[1] - KValue[0] * KwValue), -(3 * KValue[0] * KValue[1] * KValue[2] + KValue[0] * KValue[2] * KwValue), -(KValue[0] * KValue[1] * KValue[2])]
+        inputDegree       = polyprotic + 2
+        inputCoefficient  = [1, KValue[0], (KValue[0] * KValue[1] - KValue[0] - KValue[0] * KValue[1] * KValue[2] - 2 * KValue[0] * KValue[1] - KValue[0] * KwValue), -(3 * KValue[0] * KValue[1] * KValue[2] + KValue[0] * KValue[2] * KwValue), -(KValue[0] * KValue[1] * KValue[2])]
         inputInitialValue = cValue
         
         } else {

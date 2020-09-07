@@ -32,7 +32,6 @@ struct ContentView: View {
                 
                 Text("差不多就差 UI 了，有缘再写，咕咕咕。")
                     
-                
             }
             .padding()
             

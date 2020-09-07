@@ -18,10 +18,10 @@ struct SolutionParameter {
     
     init(WithAcidBase inputAcidBase: Int, Polyprotic inputPolyprotic: Int, KValue inputKValue: [Double], CValue inputCValue: Double) {
         
-        self.acidBase = inputAcidBase
+        self.acidBase   = inputAcidBase
         self.polyprotic = inputPolyprotic
-        self.KValue = inputKValue
-        self.cValue = inputCValue
+        self.KValue     = inputKValue
+        self.cValue     = inputCValue
         
     }
 }

@@ -51,7 +51,7 @@ double solveCore(int degree, double coefficient[], double initialValue) {
     do {
         
         x0 = x;
-        y = 0;
+        y  = 0;
         dy = 0;
         
         for(int index = 0; index <= degree; index++) {

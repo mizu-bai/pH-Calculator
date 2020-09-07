@@ -17,9 +17,9 @@ func calculateAmphiprotic(acidBase: Int, polyprotic: Int, KValue: [Double], cVal
     
     // Prepare the inputs for Struct CalculateTemp.
     
-    var inputDegree: Int = 0
+    var inputDegree: Int           = 0
     var inputCoefficient: [Double] = [Double]()
-    var inputInitialValue: Double = 0.0
+    var inputInitialValue: Double  = 0.0
     
     if(polyprotic != 1) {
         
@@ -33,8 +33,8 @@ func calculateAmphiprotic(acidBase: Int, polyprotic: Int, KValue: [Double], cVal
         
     }
     
-    inputDegree = 4
-    inputCoefficient = [1, 1 + KValue[0], KValue[0] * KValue[1] - KwValue, -(KValue[0] * KValue[1] + KValue[0] * KwValue), -KValue[0] * KValue[1] * KwValue]
+    inputDegree       = 4
+    inputCoefficient  = [1, 1 + KValue[0], KValue[0] * KValue[1] - KwValue, -(KValue[0] * KValue[1] + KValue[0] * KwValue), -KValue[0] * KValue[1] * KwValue]
     inputInitialValue = cValue
     
     let ExactEquation = EquationParameter()

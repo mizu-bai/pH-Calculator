@@ -26,8 +26,8 @@
 
 - (void)initParameterWithDegree: (int)inputDegree Coefficient: (double *)inputCoefficient InitialValue: (double)inputInitialValue {
     
-    _degree = inputDegree;
-    _coefficient = inputCoefficient;
+    _degree       = inputDegree;
+    _coefficient  = inputCoefficient;
     _initialValue = inputInitialValue;
     
 }

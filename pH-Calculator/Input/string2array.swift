@@ -10,7 +10,7 @@ import Foundation
 func string2array(_ inputString: String, _ KpK: Int) -> [Double] {
     
     var outputArray: [Double] = [Double]()
-    var flag: Bool = true
+    var flag: Bool            = true
     
     // The strings divided by space.
     

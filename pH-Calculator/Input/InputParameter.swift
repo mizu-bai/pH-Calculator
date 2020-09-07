@@ -23,10 +23,10 @@ class InputParameter: NSObject {
         
 //        NSLog("Class InputParameter initialized")
         
-        self.acidBase = inputAcidBase
-        self.KpK = inputKpK
+        self.acidBase     = inputAcidBase
+        self.KpK          = inputKpK
         self.KpKInputText = inputKpKInputText
-        self.cValue = inputCValue
+        self.cValue       = inputCValue
         
     }
     
@@ -35,7 +35,7 @@ class InputParameter: NSObject {
         // Paramters resolved by inputs
         
         KpKInputValue = string2array(KpKInputText, KpK)
-        polyprotic = KpKInputValue.count
+        polyprotic    = KpKInputValue.count
         
         // Deal with input K or pK Value
         

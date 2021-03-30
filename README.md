@@ -2,6 +2,14 @@
 
 This application is designed to calculate the pH value of a solution. It is aimed to be a user-friendly tool so that the you can escape the process of searching tables for the dissociation constants, analyzing the property of the solution, and finally calculating the pH value.
 
+
+
+## Screenshots
+
+
+
+
+
 ## Which Solution Types are Supported
 
 1. Single acid or base solution: monoprotic, diproticand, and triprotic; if an acid or base can provide or accept more than three protons, it will be dealt as triprotic acid or base;

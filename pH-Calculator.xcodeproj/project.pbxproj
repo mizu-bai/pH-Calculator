@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170BA34D25ECF99500431DEE /* MZAboutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170BA34C25ECF99500431DEE /* MZAboutTableViewController.m */; };
+		174771F525F0F32700431DEE /* MZHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174771F425F0F32700431DEE /* MZHelpViewController.m */; };
+		1770A21325E687AA00431DEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1770A21225E687AA00431DEE /* AppDelegate.m */; };
+		1770A21625E687AA00431DEE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1770A21525E687AA00431DEE /* SceneDelegate.m */; };
+		1770A21C25E687AA00431DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1770A21A25E687AA00431DEE /* Main.storyboard */; };
+		1770A21E25E687AD00431DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1770A21D25E687AD00431DEE /* Assets.xcassets */; };
+		1770A22125E687AD00431DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1770A21F25E687AD00431DEE /* LaunchScreen.storyboard */; };
+		1770A22425E687AD00431DEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1770A22325E687AD00431DEE /* main.m */; };
+		17B0459A25E94D6200431DEE /* MZCalculateSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B0459925E94D6200431DEE /* MZCalculateSingleViewController.m */; };
+		17B0459E25E94D7E00431DEE /* MZCalculateMixedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B0459D25E94D7E00431DEE /* MZCalculateMixedViewController.m */; };
+		17B045A225E94D9500431DEE /* MZCalculateAmphiproticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B045A125E94D9500431DEE /* MZCalculateAmphiproticViewController.m */; };
+		17B045A625E94DAF00431DEE /* MZCalculateAcidBaseBufferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B045A525E94DAF00431DEE /* MZCalculateAcidBaseBufferViewController.m */; };
+		17D14DA825EA8D9900431DEE /* MZSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D14DA725EA8D9900431DEE /* MZSolution.m */; };
+		17D14DAD25EAA11700431DEE /* MZSolutionParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D14DAC25EAA11700431DEE /* MZSolutionParameters.m */; };
+		17D14DE825ECA94200431DEE /* MZDissociationConstantTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D14DE725ECA94200431DEE /* MZDissociationConstantTableViewController.m */; };
+		17D14DED25ECAAC800431DEE /* dissociation_constants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17D14DEC25ECAAC800431DEE /* dissociation_constants.plist */; };
+		17D14DF525ECDDBC00431DEE /* MZGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D14DF425ECDDBC00431DEE /* MZGroup.m */; };
+		934291EF5EB69F42E134E4DF /* Pods_pH_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD602D63499BCAE03279EF0 /* Pods_pH_Calculator.framework */; };
+		DD74D6CC9246B51A109DC983 /* MZSolute.m in Sources */ = {isa = PBXBuildFile; fileRef = DD74DACF4A314C2B667E9B5B /* MZSolute.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		170BA34B25ECF99500431DEE /* MZAboutTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZAboutTableViewController.h; sourceTree = "<group>"; };
+		170BA34C25ECF99500431DEE /* MZAboutTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZAboutTableViewController.m; sourceTree = "<group>"; };
+		174771F325F0F32700431DEE /* MZHelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZHelpViewController.h; sourceTree = "<group>"; };
+		174771F425F0F32700431DEE /* MZHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZHelpViewController.m; sourceTree = "<group>"; };
+		1770A20E25E687AA00431DEE /* pH-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pH-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1770A21125E687AA00431DEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1770A21225E687AA00431DEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1770A21425E687AA00431DEE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1770A21525E687AA00431DEE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1770A21B25E687AA00431DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1770A21D25E687AD00431DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1770A22025E687AD00431DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1770A22225E687AD00431DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1770A22325E687AD00431DEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17B0459825E94D6200431DEE /* MZCalculateSingleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCalculateSingleViewController.h; sourceTree = "<group>"; };
+		17B0459925E94D6200431DEE /* MZCalculateSingleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCalculateSingleViewController.m; sourceTree = "<group>"; };
+		17B0459C25E94D7E00431DEE /* MZCalculateMixedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCalculateMixedViewController.h; sourceTree = "<group>"; };
+		17B0459D25E94D7E00431DEE /* MZCalculateMixedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCalculateMixedViewController.m; sourceTree = "<group>"; };
+		17B045A025E94D9500431DEE /* MZCalculateAmphiproticViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCalculateAmphiproticViewController.h; sourceTree = "<group>"; };
+		17B045A125E94D9500431DEE /* MZCalculateAmphiproticViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCalculateAmphiproticViewController.m; sourceTree = "<group>"; };
+		17B045A425E94DAF00431DEE /* MZCalculateAcidBaseBufferViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCalculateAcidBaseBufferViewController.h; sourceTree = "<group>"; };
+		17B045A525E94DAF00431DEE /* MZCalculateAcidBaseBufferViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCalculateAcidBaseBufferViewController.m; sourceTree = "<group>"; };
+		17D14DA625EA8D9900431DEE /* MZSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZSolution.h; sourceTree = "<group>"; };
+		17D14DA725EA8D9900431DEE /* MZSolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZSolution.m; sourceTree = "<group>"; };
+		17D14DAB25EAA11700431DEE /* MZSolutionParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZSolutionParameters.h; sourceTree = "<group>"; };
+		17D14DAC25EAA11700431DEE /* MZSolutionParameters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZSolutionParameters.m; sourceTree = "<group>"; };
+		17D14DE625ECA94200431DEE /* MZDissociationConstantTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZDissociationConstantTableViewController.h; sourceTree = "<group>"; };
+		17D14DE725ECA94200431DEE /* MZDissociationConstantTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZDissociationConstantTableViewController.m; sourceTree = "<group>"; };
+		17D14DEC25ECAAC800431DEE /* dissociation_constants.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = dissociation_constants.plist; sourceTree = "<group>"; };
+		17D14DF325ECDDBC00431DEE /* MZGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZGroup.h; sourceTree = "<group>"; };
+		17D14DF425ECDDBC00431DEE /* MZGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZGroup.m; sourceTree = "<group>"; };
+		3BD602D63499BCAE03279EF0 /* Pods_pH_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pH_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAFA511BDEA3D78490F3C3D /* Pods-pH-Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pH-Calculator.release.xcconfig"; path = "Target Support Files/Pods-pH-Calculator/Pods-pH-Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		984B61C00B8EDF0A569D4C20 /* Pods-pH-Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pH-Calculator.debug.xcconfig"; path = "Target Support Files/Pods-pH-Calculator/Pods-pH-Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		DD74DAB9ABA8027B0B8BB2F8 /* MZSolute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZSolute.h; sourceTree = "<group>"; };
+		DD74DACF4A314C2B667E9B5B /* MZSolute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZSolute.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1770A20B25E687AA00431DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934291EF5EB69F42E134E4DF /* Pods_pH_Calculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C69F1CDD45630A1892F0BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				984B61C00B8EDF0A569D4C20 /* Pods-pH-Calculator.debug.xcconfig */,
+				8BAFA511BDEA3D78490F3C3D /* Pods-pH-Calculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1770A20525E687AA00431DEE = {
+			isa = PBXGroup;
+			children = (
+				1770A21025E687AA00431DEE /* pH-Calculator */,
+				1770A20F25E687AA00431DEE /* Products */,
+				09C69F1CDD45630A1892F0BD /* Pods */,
+				1DAD3DD2169D356589E5F3DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1770A20F25E687AA00431DEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1770A20E25E687AA00431DEE /* pH-Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1770A21025E687AA00431DEE /* pH-Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				17D14DDC25EC906800431DEE /* Models */,
+				17D14DDD25EC906F00431DEE /* Views */,
+				17D14DDE25EC907700431DEE /* Controllers */,
+				17D14DE025EC909400431DEE /* Others */,
+				17D14DDF25EC908800431DEE /* Supporting Files */,
+			);
+			path = "pH-Calculator";
+			sourceTree = "<group>";
+		};
+		17D14DDC25EC906800431DEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17D14DA625EA8D9900431DEE /* MZSolution.h */,
+				17D14DA725EA8D9900431DEE /* MZSolution.m */,
+				17D14DAB25EAA11700431DEE /* MZSolutionParameters.h */,
+				17D14DAC25EAA11700431DEE /* MZSolutionParameters.m */,
+				DD74DAB9ABA8027B0B8BB2F8 /* MZSolute.h */,
+				DD74DACF4A314C2B667E9B5B /* MZSolute.m */,
+				17D14DF325ECDDBC00431DEE /* MZGroup.h */,
+				17D14DF425ECDDBC00431DEE /* MZGroup.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		17D14DDD25EC906F00431DEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1770A21A25E687AA00431DEE /* Main.storyboard */,
+				1770A21F25E687AD00431DEE /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		17D14DDE25EC907700431DEE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17B0459825E94D6200431DEE /* MZCalculateSingleViewController.h */,
+				17B0459925E94D6200431DEE /* MZCalculateSingleViewController.m */,
+				17B0459C25E94D7E00431DEE /* MZCalculateMixedViewController.h */,
+				17B0459D25E94D7E00431DEE /* MZCalculateMixedViewController.m */,
+				17B045A025E94D9500431DEE /* MZCalculateAmphiproticViewController.h */,
+				17B045A125E94D9500431DEE /* MZCalculateAmphiproticViewController.m */,
+				17B045A425E94DAF00431DEE /* MZCalculateAcidBaseBufferViewController.h */,
+				17B045A525E94DAF00431DEE /* MZCalculateAcidBaseBufferViewController.m */,
+				17D14DE625ECA94200431DEE /* MZDissociationConstantTableViewController.h */,
+				17D14DE725ECA94200431DEE /* MZDissociationConstantTableViewController.m */,
+				170BA34B25ECF99500431DEE /* MZAboutTableViewController.h */,
+				170BA34C25ECF99500431DEE /* MZAboutTableViewController.m */,
+				174771F325F0F32700431DEE /* MZHelpViewController.h */,
+				174771F425F0F32700431DEE /* MZHelpViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		17D14DDF25EC908800431DEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1770A22225E687AD00431DEE /* Info.plist */,
+				1770A22325E687AD00431DEE /* main.m */,
+				1770A21D25E687AD00431DEE /* Assets.xcassets */,
+				17D14DEC25ECAAC800431DEE /* dissociation_constants.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17D14DE025EC909400431DEE /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1770A21125E687AA00431DEE /* AppDelegate.h */,
+				1770A21225E687AA00431DEE /* AppDelegate.m */,
+				1770A21425E687AA00431DEE /* SceneDelegate.h */,
+				1770A21525E687AA00431DEE /* SceneDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		1DAD3DD2169D356589E5F3DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BD602D63499BCAE03279EF0 /* Pods_pH_Calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1770A20D25E687AA00431DEE /* pH-Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1770A22725E687AD00431DEE /* Build configuration list for PBXNativeTarget "pH-Calculator" */;
+			buildPhases = (
+				426A332B42B7F16107E667EF /* [CP] Check Pods Manifest.lock */,
+				1770A20A25E687AA00431DEE /* Sources */,
+				1770A20B25E687AA00431DEE /* Frameworks */,
+				1770A20C25E687AA00431DEE /* Resources */,
+				521AABE06AB40276D4530A9A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pH-Calculator";
+			productName = "pH-Calculator";
+			productReference = 1770A20E25E687AA00431DEE /* pH-Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1770A20625E687AA00431DEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MZ;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1770A20D25E687AA00431DEE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 1770A20925E687AA00431DEE /* Build configuration list for PBXProject "pH-Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1770A20525E687AA00431DEE;
+			productRefGroup = 1770A20F25E687AA00431DEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1770A20D25E687AA00431DEE /* pH-Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1770A20C25E687AA00431DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1770A22125E687AD00431DEE /* LaunchScreen.storyboard in Resources */,
+				1770A21E25E687AD00431DEE /* Assets.xcassets in Resources */,
+				1770A21C25E687AA00431DEE /* Main.storyboard in Resources */,
+				17D14DED25ECAAC800431DEE /* dissociation_constants.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		426A332B42B7F16107E667EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pH-Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		521AABE06AB40276D4530A9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pH-Calculator/Pods-pH-Calculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pH-Calculator/Pods-pH-Calculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pH-Calculator/Pods-pH-Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1770A20A25E687AA00431DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B0459E25E94D7E00431DEE /* MZCalculateMixedViewController.m in Sources */,
+				17D14DA825EA8D9900431DEE /* MZSolution.m in Sources */,
+				1770A21325E687AA00431DEE /* AppDelegate.m in Sources */,
+				1770A22425E687AD00431DEE /* main.m in Sources */,
+				17D14DAD25EAA11700431DEE /* MZSolutionParameters.m in Sources */,
+				17D14DE825ECA94200431DEE /* MZDissociationConstantTableViewController.m in Sources */,
+				1770A21625E687AA00431DEE /* SceneDelegate.m in Sources */,
+				174771F525F0F32700431DEE /* MZHelpViewController.m in Sources */,
+				17B0459A25E94D6200431DEE /* MZCalculateSingleViewController.m in Sources */,
+				17D14DF525ECDDBC00431DEE /* MZGroup.m in Sources */,
+				170BA34D25ECF99500431DEE /* MZAboutTableViewController.m in Sources */,
+				17B045A625E94DAF00431DEE /* MZCalculateAcidBaseBufferViewController.m in Sources */,
+				17B045A225E94D9500431DEE /* MZCalculateAmphiproticViewController.m in Sources */,
+				DD74D6CC9246B51A109DC983 /* MZSolute.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1770A21A25E687AA00431DEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1770A21B25E687AA00431DEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1770A21F25E687AD00431DEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1770A22025E687AD00431DEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1770A22525E687AD00431DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1770A22625E687AD00431DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1770A22825E687AD00431DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984B61C00B8EDF0A569D4C20 /* Pods-pH-Calculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A525GA3USA;
+				INFOPLIST_FILE = "pH-Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.pH-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1770A22925E687AD00431DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BAFA511BDEA3D78490F3C3D /* Pods-pH-Calculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A525GA3USA;
+				INFOPLIST_FILE = "pH-Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.pH-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1770A20925E687AA00431DEE /* Build configuration list for PBXProject "pH-Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1770A22525E687AD00431DEE /* Debug */,
+				1770A22625E687AD00431DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1770A22725E687AD00431DEE /* Build configuration list for PBXNativeTarget "pH-Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1770A22825E687AD00431DEE /* Debug */,
+				1770A22925E687AD00431DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1770A20625E687AA00431DEE /* Project object */;
+}

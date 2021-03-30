@@ -6,15 +6,7 @@ and finally calculating the pH value.
 
 ## Screenshots
 
-![image](https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.07.png)
-
-![image](https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.09.png)
-
-![image](https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.12.png)
-
-![image](https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.16.png)
-
-![image](https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.20.png)
+![image](https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/screenshot.jpg)
 
 ## Which Solution Types are Supported
 

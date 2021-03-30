@@ -6,9 +6,25 @@ This application is designed to calculate the pH value of a solution. It is aime
 
 ## Screenshots
 
+Single Solution
 
+<img src="https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.07.png" width="50%">
 
+Mixed Solution
 
+<img src="https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.09.png" width="50%">
+
+Amphiprotic Solution
+
+<img src="https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.12.png" width="50%">
+
+Acid-Base Buffer Solution
+
+<img src="https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.16.png" width="50%">
+
+Dissociation Constant Table
+
+<img src="https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.20.png" width="50%">
 
 ## Which Solution Types are Supported
 

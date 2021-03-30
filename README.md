@@ -6,29 +6,15 @@ and finally calculating the pH value.
 
 ## Screenshots
 
-<div style="float:left;border:solid 1px 000;margin:10px;">
-    <img src="https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.07.png" alt="Single Solution Screenshot" title="Single Solution"  width="207" height="484">
-</div>
+![image](https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.07.png)
 
-<div style="float:left;border:solid 1px 000;margin:10px;">
-    <img src="https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.09.png" alt="Mixed Solution Screenshot" title="Mixed Solution" width="207" height="484">
-</div>
+![image](https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.09.png)
 
-<div style="float:left;border:solid 1px 000;margin:10px;">
-    <img src="https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.12.png" alt="Armphiprotic Solution Screenshot" title="Armphiprotic Solution" width="207" height="484">
-</div>
+![image](https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.12.png)
 
-<div style="float:left;border:solid 1px 000;margin:10px;">
-    <img src="https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.16.png" alt="Acid-Base Buffer Solution Screenshot" title="Acid-Base Buffer Solution" width="207" height="484">
-</div>
+![image](https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.16.png)
 
-<div style="float:left;border:solid 1px 000;margin:10px;">
-    <img src="https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.20.png" alt="Dissociation Constant" width="207" height="484">
-</div>
-
-<div style="float:none;clear:both;">
-    <!--Blank-->
-</div>
+![image](https://github.com/mizu-bai/pH-Calculator/raw/master/README.assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-03-30%20at%2014.30.20.png)
 
 ## Which Solution Types are Supported
 
